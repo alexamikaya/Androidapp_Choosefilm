@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".Rules"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:text="Для того, чтобы система могла найти для вас интересные фильмы, вам необходимо:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:text="1. Определиться с жанром, система предложить выбрать жанр, когда вы из личного кабинета перейдете по кнопке - выбрать фильм."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:text="2. Далее система будет показывать фильмы выбранного жанра и вам необходимо - смахнуть влево, в случае если вы смотрели показанный фильм и он вам не понравился; смахнуть вправо, если вы смотрели фильм и он вам понравился; просто нажать на баннер, если вы не смотрели данный фильм."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:text="3. После того, как Вы пройдете шаг 2, перейдите раздел рекомендации, где вы увидете подборку фильмов по жанрам, которые с большей вероятностью вам понравятся"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+        <Button
+            android:id="@+id/mainmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Вернуться в главное меню"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+        />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="Руководство пользователя"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+</RelativeLayout>
