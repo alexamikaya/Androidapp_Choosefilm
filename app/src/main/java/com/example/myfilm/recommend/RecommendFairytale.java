@@ -118,3 +118,4 @@ public class RecommendFairytale extends AppCompatActivity {
             return results;
         }
     }
+}

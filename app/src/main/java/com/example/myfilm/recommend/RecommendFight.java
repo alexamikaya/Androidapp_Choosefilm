@@ -118,3 +118,4 @@ public class RecommendFight extends AppCompatActivity {
             return results;
         }
     }
+}

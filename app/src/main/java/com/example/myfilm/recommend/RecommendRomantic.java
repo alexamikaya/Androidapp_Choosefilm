@@ -118,3 +118,4 @@ public class RecommendRomantic extends AppCompatActivity {
             return results;
         }
     }
+}

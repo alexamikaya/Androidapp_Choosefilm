@@ -119,3 +119,4 @@ public class RecommendMusic extends AppCompatActivity {
             return results;
         }
     }
+}
